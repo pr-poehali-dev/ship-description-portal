@@ -17,12 +17,14 @@ export type ShipType =
   | "passenger" 
   | "cargo" 
   | "research" 
-  | "submarine";
+  | "submarine"
+  | "tanker";
 
 export const shipTypeLabels: Record<ShipType, string> = {
   military: "Военный",
   passenger: "Пассажирский",
   cargo: "Грузовой",
   research: "Исследовательский",
-  submarine: "Подводная лодка"
+  submarine: "Подводная лодка",
+  tanker: "Танкер"
 };
